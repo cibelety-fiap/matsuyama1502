@@ -596,3 +596,7 @@
 2019-02-15 11:44:23,849 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2019-02-15 11:44:23,852 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-02-15 11:44:23,853 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MATSUYAMA2\03-Loja-App\src\test\resources
+2019-02-15 11:47:45,148 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-15 11:47:45,149 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-02-15 11:47:45,151 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-02-15 11:47:45,152 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\MATSUYAMA2\03-Loja-App\src\test\resources
