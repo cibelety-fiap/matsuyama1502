@@ -1,0 +1,25 @@
+package br.com.fiap.loja.bo;
+
+import br.com.fiap.to.ProdutoTO;
+
+public class EstoqueBO {
+	
+	public ProdutoTO consultarProduto(int codigo) {
+		
+		switch (codigo) {
+		case 401:
+			return new ProdutoTO(codigo, "Camiseta branca", 4, 2.99);
+			break;
+		case 402:
+			return new ProdutoTO(codigo, "Camiseta azul", 4, 2.99);
+			break;
+		case 403:
+			return new ProdutoTO(codigo, "Camiseta rosa", 4, 2.99);
+			break;
+		default:
+			return null;
+			break;
+		}
+	}
+
+}
