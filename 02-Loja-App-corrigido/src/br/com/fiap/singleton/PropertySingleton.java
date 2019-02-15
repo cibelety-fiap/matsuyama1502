@@ -8,6 +8,7 @@ public class PropertySingleton {
 	private static final String ARQ = "/arquivo.properties";
 
 	public static Properties getInstance() {
+
 		if (p == null) {
 			try {
 				p = new Properties();

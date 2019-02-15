@@ -5,18 +5,21 @@ import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 import br.com.fiap.loja.bo.EstoqueBO;
+import br.com.fiap.singleton.PropertySingleton;
 import br.com.fiap.to.ProdutoTO;
 
 public class TerminalConsulta {
-
+	
 	public static void main(String[] args) {
-
+		
 		LocalDate hoje = LocalDate.now();
-		DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		
+		DateTimeFormatter formatador = DateTimeFormatter.ofPattern(PropertySingleton.getInstance().getProperty("mascara"));
 
 		Scanner e = new Scanner(System.in);
 
-		System.out.println("--- LOJA ABC ---");
+		String nome = PropertySingleton.getInstance().getProperty("nome");
+		System.out.println(nome);
 		System.out.println(hoje.format(formatador));
 
 
